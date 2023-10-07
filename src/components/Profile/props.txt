@@ -1,0 +1,4 @@
+Component    Props
+ProfileCard  avatar: string, name: string, location: string, followers:  number, views: number, likes: number  
+
+Statistics title: string, stats: array

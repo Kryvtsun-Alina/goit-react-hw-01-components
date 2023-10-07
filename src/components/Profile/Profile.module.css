@@ -1,0 +1,80 @@
+.profileCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #DCDCDC;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #696969;
+    border-radius: 30px;
+    margin-top: 30px;
+    /* padding: 20px; */
+    box-shadow: 5px 5px 15px 5px #A9A9A9;
+    gap: 35px;
+    transition: scale 300ms;
+    width: 350px;
+    overflow: hidden;
+}
+
+.profileCard:hover {
+  scale: 1.05;
+}
+
+.description {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.avatar {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: #708090;
+  border: 3px solid#2F4F4F;
+  margin: 0;
+  transition: scale 300ms;
+}
+
+.avatar:hover {
+  scale: 1.05;
+}
+
+.name {
+  font-weight: 700;
+}
+.tag {
+  font-size: 28px;
+  color: #605d5a;
+}
+.location {
+  font-size: 28px;
+  color: #605d5a;
+}
+
+.stats {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #DCDCDC;
+  border-top: 1px solid #696969;
+
+  width: 100%;
+}
+
+.statitem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #696969;
+  width: 100%;
+  padding: 10px;
+}
+.label {
+  font-size: 16px;
+}
+.quantity {
+  font-weight: 500;
+}
