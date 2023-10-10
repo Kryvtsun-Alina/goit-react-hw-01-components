@@ -1,9 +1,0 @@
-Component         Props
-ProfileCard       avatar: string, name: string, location: string, followers:  number, views: number, likes: number  
-
-Statistics         title: string, stats: array
-
-FriendList          friends: array   
-FriendListItem     avatar: string, name: string, isOnline: string
-
-TransactionHistiry id: string, name: string, amount: numder, currency
